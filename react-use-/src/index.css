@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.language-button {
+    padding: 10px 16px;
+    margin: 4px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.language-button.selected {
+    background-color: #4caf50;
+}
+
+.language-card {
+    border: 1px solid lightgray;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 20px;
+    max-width: 400px;
+    background-color: white;
+}
